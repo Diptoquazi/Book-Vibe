@@ -1,4 +1,15 @@
+import { NavLink } from "react-router-dom";
+
 const Header = () => {
+
+    const links = <>
+
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/listed">Listed Books</NavLink></li>
+        <li><NavLink to="/to-read">Pages to Read</NavLink></li>
+
+    </>
+
     return (
         <div>
             <div className="navbar text-black bg-white">
@@ -8,24 +19,14 @@ const Header = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </div>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Home</a></li>
-                            <li>
-                                <a>Listed Books</a>
-
-                            </li>
-                            <li><a>Pages to Read</a></li>
+                            {links}
                         </ul>
                     </div>
                     <a className="btn font-bold text-3xl btn-ghost text-xl">Book Vibe</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li>
-                            <a>Listed Books</a>
-
-                        </li>
-                        <li><a>Pages to Read</a></li>
+                        {links}
                     </ul>
                 </div>
                 <div className="navbar-end gap-2 ">
