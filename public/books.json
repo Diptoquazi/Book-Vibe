@@ -1,0 +1,80 @@
+[
+    {
+        "bookId": "1",
+        "bookName": "The Silent Patient",
+        "author": "Alex Michaelides",
+        "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1438898566i/25856774.jpg",
+        "review": "A thrilling and suspenseful psychological drama with unexpected twists.",
+        "totalPages": 336,
+        "rating": 4.5,
+        "category": "Thriller",
+        "tags": ["Suspense", "Psychological"],
+        "publisher": "Celadon Books",
+        "yearOfPublishing": 2019
+    },
+    {
+        "bookId": "2",
+        "bookName": "Educated",
+        "author": "Tara Westover",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81WojUxbbFL._AC_UL600_SR600,600_.jpg",
+        "review": "An inspiring memoir about a woman's quest for knowledge and self-discovery.",
+        "totalPages": 334,
+        "rating": 4.7,
+        "category": "Memoir",
+        "tags": ["Inspiring", "Self-Discovery"],
+        "publisher": "Random House",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": "3",
+        "bookName": "Where the Crawdads Sing",
+        "author": "Delia Owens",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91bYsX41DVL._AC_UL600_SR600,600_.jpg",
+        "review": "A beautifully written mystery set in the marshes of North Carolina.",
+        "totalPages": 368,
+        "rating": 4.8,
+        "category": "Fiction",
+        "tags": ["Mystery", "Nature"],
+        "publisher": "G.P. Putnam's Sons",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": "4",
+        "bookName": "Becoming",
+        "author": "Michelle Obama",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81h2gWPTYJL._AC_UL600_SR600,600_.jpg",
+        "review": "A deeply personal and inspiring memoir by the former First Lady.",
+        "totalPages": 448,
+        "rating": 4.9,
+        "category": "Biography",
+        "tags": ["Inspiring", "Political"],
+        "publisher": "Crown Publishing Group",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": "5",
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71FTb9X6wsL._AC_UL600_SR600,600_.jpg",
+        "review": "A classic novel exploring themes of wealth, society, and the American dream.",
+        "totalPages": 180,
+        "rating": 4.4,
+        "category": "Classic",
+        "tags": ["Classic", "Society"],
+        "publisher": "Charles Scribner's Sons",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": "6",
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91b0C2YNSrL._AC_UL600_SR600,600_.jpg",
+        "review": "An enchanting tale of adventure and fantasy in Middle-earth.",
+        "totalPages": 310,
+        "rating": 4.7,
+        "category": "Fantasy",
+        "tags": ["Adventure", "Fantasy"],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    }
+]
