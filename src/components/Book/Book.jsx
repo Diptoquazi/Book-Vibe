@@ -1,6 +1,9 @@
+import { FaRegStar } from "react-icons/fa"
+import { Link } from "react-router-dom";
+
 const Book = ({ book }) => {
 
-    const { image, tags, bookName, author, category } = book;
+    const { image, tags, bookName, author, category, rating } = book;
 
 
     return (
@@ -20,8 +23,20 @@ const Book = ({ book }) => {
                     
                 </h2>
                 <div className="badge text-black bg-[#59C6D2]">By: {author}</div>
-                <p className="badge text-black bg-[#23BE0A]">{category}</p>
+                <hr />
+                <div className="flex flex-grow gap-40">
+                <p className="badge  font-bold text-black bg-[#23BE0A]">{category}</p>
+                <div className="flex gap-2">
+                <p>{rating} </p>
+                <p className="text-2xl">
+                <FaRegStar></FaRegStar>
+                </p>
+                </div>
+                </div>
 
+                    <div className="font-bold bg-[#23BE0A] text-center rounded px-5 py-2 w-[154px]">
+                        <Link  to="/details">View Details</Link>
+                    </div>
             </div>
         </div>
     );
